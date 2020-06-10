@@ -4,6 +4,15 @@ based on https://github.com/postgis/docker-postgis/tree/master/12-3.0/alpine
 
 This image contains an alpine OS with empty postgres database and postgis installed
 
+Build image from dockerfile:
+```
+docker build --tag alpinepostgis .
+```
+or pull image directly:
+```
+docker pull anneb/postgis
+```
+
 Data can be mounted on /var/lib/postgresql/data
 
 Directories with data to be imported can be mounted on /import
