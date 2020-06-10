@@ -1,5 +1,7 @@
 # anneb/postgis
 
+based on https://github.com/postgis/docker-postgis/tree/master/12-3.0/alpine
+
 This image contains an alpine OS with empty postgres database and postgis installed
 
 Data can be mounted on /var/lib/postgresql/data
